@@ -1,0 +1,134 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+main{
+    min-height: 100vh;
+    background:linear-gradient(
+        to right top,
+        #65dfc9,
+        #6cdbed
+        );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass{
+    background:white;
+    min-height: 70vh;
+    width: 80%;
+    background: linear-gradient(
+        to right bottom,
+    rgba(255,255,255,0.7),
+    rgba(255,255,255,0.3)
+    );
+    border-radius: 2rem;
+    z-index: 2;
+    
+}
+
+.circle1{
+    background: white;
+    background: linear-gradient(to right bottom,
+    rgba(255,255,255,0.9),
+    rgba(225,255,255,0.3));
+    border-radius: 2rem;
+    height:18rem;
+    width:18rem;
+    position: absolute;
+    top: 4%;
+    right: 5%;
+    
+}
+
+.circle2{
+    background: white;
+    background: linear-gradient(to right bottom,
+    rgba(255,255,255,0.9),
+    rgba(225,255,255,0.3));
+    border-radius: 2rem;
+    height:18rem;
+    width:18rem;
+    position: absolute;
+    bottom: 5%;
+    left: 4%;
+    
+}
+
+.h1{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:2rem 0rem;
+    color:#426696;
+    opacity: 2;
+    font-size: larger;
+    
+}
+.p1{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1rem 0rem;
+    color:#658ec6;
+    opacity: 1;
+    
+    
+}
+form{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: space-evenly;
+    margin: 3rem;
+    color: #2008f1;
+    opacity: .9;
+    
+}
+
+.radio{
+    color: rgb(0, 0, 0);
+    opacity: .8;
+
+}
+
+button{
+    height: 2rem;
+    width: 4rem;
+    border-radius: 1rem;
+    box-shadow: 1px 2px 15px;
+}
+button:hover{
+    background-color: #5e5c79;
+    cursor: pointer;
+}
+
+button:focus{
+    background: #0307fa;
+}
+
+#name{
+    box-shadow: 1px 2px 15px;
+    height: 1.5rem;
+}
+
+#email{
+    box-shadow: 1px 2px 15px;
+    height: 1.5rem;
+}
+
+#phone-number{
+    box-shadow: 1px 2px 15px;
+    height: 1.5rem;
+}
+
+#massege{
+    box-shadow: 1px 2px 15px;
+}
